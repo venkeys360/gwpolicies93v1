@@ -26,4 +26,3 @@ core.symlinks=false
 core.ignorecase=true
 remote.origin.url=C:\Users\vvanigalla\Desktop\dump\GatewayToGitBatFiles\git\test\GitCommands.txt
 remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
-v
