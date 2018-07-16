@@ -1,0 +1,44 @@
+
+
+
+:::::::::::::::::::::::::::::::::::::::::Firewall::::::::::::::::::::::::::::::::::::::::::::::::
+
+Firewall:  a set of rules to filter traffic
+ 
+1. filters the host IP, destination IP address
+
+2. filter the ports
+
+3. filter the protocols
+
+Firewall:     1. hardware based used in organization network level
+			  2. software based used in a sinle machine   ex: mcafee,avasta,windows firewall
+
+Firewall Techniques:
+
+               1. packet filtering :  a. stateful : session less,
+													less overhead,
+													less memory and time,
+													hacker can enters
+									  b. stateful : session maintains,
+													TCP based,flow control,more overhead,sequential dataflow,
+													spoofing of IP cannot possible,
+													once connection established packets can flow without furthur checking
+			   2. ApllicationLayerGateway(ALG) : application layer gateway applies security mechanisms based on certain applications. like https,tls/ssl,ftp,voip.
+			   
+			   It looks deeper into protcols and checks whether they are properly used or not looks at layer7.
+			   
+			   It filters disllowed commands into data streams when filtering at stateful.
+			   
+			            a. ALG uses (DeepPacketInspection)DPI----- to examine the data that sent in great detail like malware attachements and structure of data being sent.others includes snooping and censoring.
+						
+						DPI----- deals with protocols and their behaviour
+						
+						b. DPI evolves into DCI(deep content inspection)---- to examine entire file for malware inspection,spam,key words,data exfilteration.
+						
+						DCI---- deals with data ,decodes and decompresses the fies.
+						
+						
+			   
+			   
+													

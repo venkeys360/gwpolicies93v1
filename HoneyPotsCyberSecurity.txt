@@ -1,0 +1,11 @@
+::::::::::::::::::::::::::::::::HoneyPots::::::::::::::::::::::::::::::::::
+
+1. Honey pots are used to fool the hackers from accessing secured data .
+
+2. A network with no security is called "honeynet"
+
+Decoy system: decoy system on network that fool potential hackers.It allow admins to watch hacker activity.based of hacker activites admins can chnage firewall rules.
+
+1. new wave of decoy system.
+2. decoy system centrally managed. works wid other security software and  run though virutalization
+3. decoy system end point looks like running on windows but it runs on linux.It provides malware to attack and provides docs fools attacker like the doc is a new product implementaion.when doc is opened they can find the location and who did all.
