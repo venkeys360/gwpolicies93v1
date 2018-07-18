@@ -29,5 +29,3 @@ remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
 dfhd
 123
 xyz
-ten
-str
